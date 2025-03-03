@@ -16,7 +16,7 @@ const PRODUCTS = [
     price: 55,
     unit: 'kg',
     quantity: 1,
-    image: 'tomato.png',
+    image: 'tomato.jpg',
   },
   {
     id: 12,
@@ -25,7 +25,7 @@ const PRODUCTS = [
     price: 35,
     unit: 'piece',
     quantity: 1,
-    image: 'bellpepper-red.png',
+    image: 'bellpepper-red.jpg',
   },
   {
     id: 13,
@@ -34,7 +34,7 @@ const PRODUCTS = [
     price: 35,
     unit: 'piece',
     quantity: 1,
-    image: 'bellpepper-yellow.png',
+    image: 'bellpepper-yellow.jpg',
   },
   {
     id: 14,
@@ -43,7 +43,7 @@ const PRODUCTS = [
     price: 35,
     unit: 'piece',
     quantity: 1,
-    image: 'bellpepper-green.png',
+    image: 'bellpepper-green.jpg',
   },
   {
     id: 15,
@@ -52,7 +52,7 @@ const PRODUCTS = [
     price: 50,
     unit: 'kg',
     quantity: 1,
-    image: 'eggplant.png',
+    image: 'eggplant.jpg',
   },
   {
     id: 16,
@@ -61,7 +61,7 @@ const PRODUCTS = [
     price: 60,
     unit: 'kg',
     quantity: 1,
-    image: 'zucchini.png',
+    image: 'zucchini.jpg',
   },
   {
     id: 17,
@@ -70,7 +70,7 @@ const PRODUCTS = [
     price: 80,
     unit: 'piece',
     quantity: 1,
-    image: 'pumpkin.png',
+    image: 'pumpkin.jpg',
   },
   {
     id: 18,
@@ -79,7 +79,7 @@ const PRODUCTS = [
     price: 70,
     unit: 'gr',
     quantity: 500,
-    image: 'chili-pepper.png',
+    image: 'chili-pepper.jpg',
   },
   {
     id: 19,
@@ -88,7 +88,7 @@ const PRODUCTS = [
     price: 70,
     unit: 'kg',
     quantity: 1,
-    image: 'okra.png',
+    image: 'okra.jpg',
   },
 
   {
@@ -98,7 +98,7 @@ const PRODUCTS = [
     price: 30,
     unit: 'kg',
     quantity: 1,
-    image: 'potato.png',
+    image: 'potato.jpg',
   },
   {
     id: 21,
@@ -107,7 +107,7 @@ const PRODUCTS = [
     price: 45,
     unit: 'kg',
     quantity: 1,
-    image: 'carrot.png',
+    image: 'carrot.jpg',
   },
   {
     id: 23,
@@ -116,7 +116,7 @@ const PRODUCTS = [
     price: 50,
     unit: 'kg',
     quantity: 1,
-    image: 'sweet-potato.png',
+    image: 'sweet-potato.jpg',
   },
   {
     id: 24,
@@ -125,7 +125,7 @@ const PRODUCTS = [
     price: 35,
     unit: 'gr',
     quantity: 500,
-    image: 'radish.png',
+    image: 'radish.jpg',
   },
   {
     id: 25,
@@ -134,7 +134,7 @@ const PRODUCTS = [
     price: 55,
     unit: 'kg',
     quantity: 1,
-    image: 'beetroot.png',
+    image: 'beetroot.jpg',
   },
   {
     id: 26,
@@ -143,7 +143,7 @@ const PRODUCTS = [
     price: 40,
     unit: 'kg',
     quantity: 1,
-    image: 'taro.png',
+    image: 'taro.jpg',
   },
   {
     id: 27,
@@ -152,7 +152,7 @@ const PRODUCTS = [
     price: 40,
     unit: 'kg',
     quantity: 1,
-    image: 'cassava.png',
+    image: 'cassava.jpg',
   },
 
   {
@@ -162,7 +162,7 @@ const PRODUCTS = [
     price: 35,
     unit: 'kg',
     quantity: 1,
-    image: 'onion-white.png',
+    image: 'onion-white.jpg',
   },
   {
     id: 33,
@@ -171,7 +171,7 @@ const PRODUCTS = [
     price: 40,
     unit: 'kg',
     quantity: 1,
-    image: 'onion-red.png',
+    image: 'onion-red.jpg',
   },
   {
     id: 32,
@@ -180,7 +180,7 @@ const PRODUCTS = [
     price: 80,
     unit: 'kg',
     quantity: 1,
-    image: 'garlic.png',
+    image: 'garlic.jpg',
   },
   {
     id: 34,
@@ -189,7 +189,7 @@ const PRODUCTS = [
     price: 100,
     unit: 'gr',
     quantity: 100,
-    image: 'basil.png',
+    image: 'basil.jpg',
   },
   {
     id: 35,
@@ -198,7 +198,7 @@ const PRODUCTS = [
     price: 40,
     unit: 'gr',
     quantity: 250,
-    image: 'cilantro.png',
+    image: 'cilantro.jpg',
   },
 
   {
@@ -208,7 +208,7 @@ const PRODUCTS = [
     price: 40,
     unit: 'piece',
     quantity: 1,
-    image: 'lettuce.png',
+    image: 'lettuce.jpg',
   },
   {
     id: 41,
@@ -217,7 +217,7 @@ const PRODUCTS = [
     price: 50,
     unit: 'kg',
     quantity: 1,
-    image: 'spinach.png',
+    image: 'spinach.jpg',
   },
   {
     id: 44,
@@ -226,7 +226,7 @@ const PRODUCTS = [
     price: 55,
     unit: 'piece',
     quantity: 1,
-    image: 'cabbage.png',
+    image: 'cabbage.jpg',
   },
   {
     id: 43,
@@ -235,7 +235,7 @@ const PRODUCTS = [
     price: 60,
     unit: 'gr',
     quantity: 500,
-    image: 'kale.png',
+    image: 'kale.jpg',
   },
   {
     id: 45,
@@ -244,7 +244,7 @@ const PRODUCTS = [
     price: 30,
     unit: 'gr',
     quantity: 250,
-    image: 'parsley.png',
+    image: 'parsley.jpg',
   },
   {
     id: 46,
@@ -253,7 +253,7 @@ const PRODUCTS = [
     price: 35,
     unit: 'gr',
     quantity: 250,
-    image: 'morning-glory.png',
+    image: 'morning-glory.jpg',
   },
 
   {
@@ -263,7 +263,7 @@ const PRODUCTS = [
     price: 70,
     unit: 'gr',
     quantity: 500,
-    image: 'broccoli.png',
+    image: 'broccoli.jpg',
   },
   {
     id: 52,
@@ -272,7 +272,7 @@ const PRODUCTS = [
     price: 60,
     unit: 'piece',
     quantity: 1,
-    image: 'cauliflower.png',
+    image: 'cauliflower.jpg',
   },
   {
     id: 55,
@@ -281,7 +281,7 @@ const PRODUCTS = [
     price: 50,
     unit: 'gr',
     quantity: 500,
-    image: 'celery.png',
+    image: 'celery.jpg',
   },
   {
     id: 53,
@@ -290,7 +290,7 @@ const PRODUCTS = [
     price: 120,
     unit: 'gr',
     quantity: 500,
-    image: 'asparagus.png',
+    image: 'asparagus.jpg',
   },
   {
     id: 54,
@@ -299,7 +299,7 @@ const PRODUCTS = [
     price: 90,
     unit: 'gr',
     quantity: 500,
-    image: 'brussels-sprouts.png',
+    image: 'brussels-sprouts.jpg',
   },
 
   {
@@ -309,7 +309,7 @@ const PRODUCTS = [
     price: 55,
     unit: 'kg',
     quantity: 1,
-    image: 'green-beans.png',
+    image: 'green-beans.jpg',
   },
   {
     id: 62,
@@ -318,7 +318,7 @@ const PRODUCTS = [
     price: 60,
     unit: 'kg',
     quantity: 1,
-    image: 'peas.png',
+    image: 'peas.jpg',
   },
   {
     id: 63,
@@ -327,7 +327,7 @@ const PRODUCTS = [
     price: 45,
     unit: 'kg',
     quantity: 1,
-    image: 'lentils.png',
+    image: 'lentils.jpg',
   },
   {
     id: 64,
@@ -336,7 +336,7 @@ const PRODUCTS = [
     price: 50,
     unit: 'kg',
     quantity: 1,
-    image: 'chickpeas.png',
+    image: 'chickpeas.jpg',
   },
   {
     id: 65,
@@ -345,6 +345,6 @@ const PRODUCTS = [
     price: 80,
     unit: 'gr',
     quantity: 500,
-    image: 'edamame.png',
+    image: 'edamame.jpg',
   },
 ];

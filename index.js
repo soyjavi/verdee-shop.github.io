@@ -35,8 +35,6 @@ CATEGORIES.forEach(({ id, name }) => {
   categoryTabs.appendChild(tab);
 });
 
-showConfirmation();
-
 categoryTabs.firstChild.classList.add('active');
 
 function renderProducts(products) {
