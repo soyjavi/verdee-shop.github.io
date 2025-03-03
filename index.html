@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fresh Roots - Hua Hin</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;700&family=Poppins:wght@400;600&family=Material+Symbols+Outlined&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./index.css" rel="stylesheet" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <i class="material-symbols-outlined">eco</i>
+        <h1 class="logo">verdee</h1>
+      </header>
+
+      <div class="banner">
+        <h1>Join the Green Revolution</h1>
+        <small>
+          Discover the freshest, most vibrant organic veggies in town—hand-picked daily from local
+          markets! Taste the difference of farm-fresh goodness and support our community.
+        </small>
+      </div>
+      <input type="text" id="search-input" placeholder="Search products" />
+      <div class="categories"></div>
+      <div class="products"></div>
+
+      <footer class="hidden">
+        <h2>Your Cart</h2>
+        <div class="cart-summary"></div>
+        <button id="checkout-btn">
+          Go to checkout
+          <i class="material-symbols-outlined">shopping_cart</i>
+        </button>
+      </footer>
+    </main>
+
+    <section id="checkout">
+      <header>
+        <button id="back-to-cart" class="back">
+          <i class="material-symbols-outlined"> arrow_back_ios </i>
+        </button>
+        <h1>Order Summary</h1>
+      </header>
+
+      <div class="order-summary">
+        <h2>Your Order</h2>
+        <div class="summary-separator"></div>
+
+        <div id="checkout-items"></div>
+        <div class="summary-separator"></div>
+
+        <div class="summary-item">
+          <small><strong>Subtotal</strong></small>
+          <small><strong id="checkout-subtotal">0 THB</strong></small>
+        </div>
+        <div class="summary-item">
+          <small>Delivery Fee</small>
+          <small>+40 THB</small>
+        </div>
+        <div class="summary-separator"></div>
+
+        <div class="summary-item">
+          <strong>Total</strong>
+          <strong id="checkout-total">0 THB</strong>
+        </div>
+      </div>
+
+      <footer>
+        <h2>Payment Method</h2>
+        <button id="stripe-btn">
+          Pay with Card
+          <i class="material-symbols-outlined"> credit_card </i>
+        </button>
+        <button id="cod-btn">
+          Cash on Delivery
+          <i class="material-symbols-outlined"> payments </i>
+        </button>
+        <small class="tiny">
+          Your order ships in under 24 hours, with dispatches scheduled between 8 AM and 12 PM.
+        </small>
+      </footer>
+    </section>
+
+    <section id="cod">
+      <header>
+        <button id="back-to-checkout" class="back">
+          <i class="material-symbols-outlined"> arrow_back_ios </i>
+        </button>
+        <h1>Cash on Delivery</h1>
+      </header>
+
+      <div class="order-summary">
+        <div class="summary-item">
+          <small>Total</small>
+          <small id="total-amount"></small>
+        </div>
+        <div class="summary-separator"></div>
+        <div class="summary-item">
+          <small>5% Service Fee</small>
+          <small id="surcharge"></small>
+        </div>
+        <div class="summary-separator"></div>
+        <div class="summary-item">
+          <strong>Total with Service Fee</strong>
+          <strong id="total-with-surcharge"></strong>
+        </div>
+      </div>
+
+      <footer>
+        <h2>Your contact details</h2>
+        <form id="cod-element">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="address">Address</label>
+          <textarea type="text" id="address" name="address" required></textarea>
+
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone" name="phone" required />
+
+          <button type="submit">Confirm Order</button>
+        </form>
+        <small class="tiny">
+          Cash on Delivery includes a 5% service fee added to the total price. No extra charge
+          applies for card payments.
+        </small>
+      </footer>
+    </section>
+
+    <section id="confirmation">
+      <div class="banner">
+        <h1>Order Confirmed</h1>
+        <p>Your order has been accepted and will be delivered tomorrow between 8 AM and 12 PM.</p>
+      </div>
+      <button id="back-to-home">Back to Home</button>
+    </section>
+
+    <script src="./products.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
